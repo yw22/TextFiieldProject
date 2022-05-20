@@ -17,6 +17,10 @@ class ViewController: UIViewController, UITextFieldDelegate {
         
         textField.delegate = self
         
+        //화면의 탭을 감지하는 메서드
+        let tapGesture = UITapGestureRecognizer(target: view, action: #selector(UIView.endEditing))
+        view.addGestureRecognizer(tapGesture)
+        
         setup()
         
     }
@@ -29,6 +33,8 @@ class ViewController: UIViewController, UITextFieldDelegate {
         textField.borderStyle = .roundedRect
         textField.clearButtonMode = .always
         textField.returnKeyType = .done
+        
+        textField.becomeFirstResponder()
         
     }
     
@@ -62,6 +68,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
     
     @IBAction func doneButtonTapped(_ sender: UIButton) {
         
+        textField.resignFirstResponder()
         
     }
     
