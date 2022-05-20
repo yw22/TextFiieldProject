@@ -53,4 +53,4 @@ first응답 객체를 지정해줌(화면에서 일단 먼저 반응할 녀석)
 
 
 ## **구현 영상**
-<img width="30%" src="https://user-images.githubusercontent.com/100309352/169529943-f271ad6c-2ee1-4f98-84c1-e2bb3395446b.gif"/>  
+<img width="50%" src="https://user-images.githubusercontent.com/100309352/169529943-f271ad6c-2ee1-4f98-84c1-e2bb3395446b.gif"/>  
